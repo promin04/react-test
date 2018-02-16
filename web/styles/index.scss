@@ -7,34 +7,38 @@ $black: #242526;
 
 :global {
     // global style here
-    
+
     html,body,#app {
       height: 100%;
     }
-    
+
+    .text-error {
+      color:red;
+    }
+
     .text-center {
       text-align: center;
     }
-    
+
     .w-100 {
       width: 100%;
       box-sizing: border-box;
     }
-    
+
     .vm-1 {
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
-    
+
     .block-center {
       display: block;
       margin: auto;
     }
-    
+
     #app {
       background-color: ghostwhite;
     }
-    
+
     a {
       color: deepskyblue;
       text-decoration: none;
@@ -42,9 +46,9 @@ $black: #242526;
         text-decoration: underline;
       }
     }
-    
+
     .input-group {
-      
+
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
         input {
@@ -52,17 +56,17 @@ $black: #242526;
             border-radius: 1rem;
             padding: 0.8rem;
             border: 2px solid $whiteGray;
-          
+
             &:focus {
               border-color: $black;
               outline: none;
             }
-            
+
         }
-      
+
     }
-    
-    
+
+
     .blue-btn {
       background-color: deepskyblue;
       border-radius: 5px;
@@ -72,7 +76,7 @@ $black: #242526;
       width: 160px;
       font-size: 18px;
     }
-     
+
     .logo-spin {
         animation: App-logo-spin infinite 3s linear;
     }

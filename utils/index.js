@@ -10,6 +10,26 @@ const _ = require('lodash');
  */
 exports.updateStudentScore = (store, { name, scores }) => {
     // code here
+    for (let key in scores) {
+      for (let i = 0; i < store.length; i++) {
+
+        if (store[i].subject === key) {
+          return store[i].students.push(
+            {
+              name,
+              score:scores[key]
+            }
+          )
+        }else if(i === store.length-1){
+          store.push({subject:key,student:[]})
+        }
+
+      }
+    }
+
+
+console.log('storess',JSON.stringify(store));
+return store;
 };
 
 /**

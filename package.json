@@ -9,7 +9,9 @@
         "test": "jest --watch"
     },
     "dependencies": {
+        "axios": "^0.17.1",
         "body-parser": "1.17.2",
+        "classnames": "^2.2.5",
         "cors": "2.8.4",
         "express": "4.15.3",
         "lodash": "4.17.4",
