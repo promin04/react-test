@@ -1,0 +1,50 @@
+.logIn {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+  .logIn-container {
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 2px 10px 1px $lightGray;
+    padding: 1rem;
+  }
+  
+  .logIn-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .logo {
+    width: 180px;
+  }
+  
+  .logIn-footer {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    
+    .right {
+      display: flex;
+      width: 50%;
+      justify-content: flex-end;
+    }
+    
+    .left {
+      display: flex;
+      width: 50%;
+    }
+  }
+  
+
+    
+
+  
+}

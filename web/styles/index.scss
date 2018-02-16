@@ -1,5 +1,78 @@
+$lightGray: #ccc;
+$whiteGray: #e8e8e8;
+$black: #242526;
+
+
+@import "logIn.scss";
+
 :global {
     // global style here
+    
+    html,body,#app {
+      height: 100%;
+    }
+    
+    .text-center {
+      text-align: center;
+    }
+    
+    .w-100 {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    .vm-1 {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    .block-center {
+      display: block;
+      margin: auto;
+    }
+    
+    #app {
+      background-color: ghostwhite;
+    }
+    
+    a {
+      color: deepskyblue;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    
+    .input-group {
+      
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+        input {
+            margin-top: 0.5rem;
+            border-radius: 1rem;
+            padding: 0.8rem;
+            border: 2px solid $whiteGray;
+          
+            &:focus {
+              border-color: $black;
+              outline: none;
+            }
+            
+        }
+      
+    }
+    
+    
+    .blue-btn {
+      background-color: deepskyblue;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      padding: 16px;
+      width: 160px;
+      font-size: 18px;
+    }
+     
     .logo-spin {
         animation: App-logo-spin infinite 3s linear;
     }
